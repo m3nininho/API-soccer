@@ -1,0 +1,8 @@
+.main-container{
+  max-width: 100%;
+  width: 90rem;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
