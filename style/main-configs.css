@@ -1,3 +1,14 @@
 :root{
   font-size: 62.5%;
+  --bg-body: #bbf7d0;
+  --main-title: #4c1d95;
+  --bg-boxTeam: #1e3a8a;
+  --text-boxTeam: #FFF;
+}
+body{
+background: var(--bg-body);
+}
+img{
+  display: block;
+  max-width: 100%;
 }

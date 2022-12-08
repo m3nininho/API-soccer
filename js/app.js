@@ -20,18 +20,18 @@ function collectedData(data){
 
   teams.forEach((team) => {
     const box = document.createElement('div');
-    const paragraph = document.createElement('p');
-    const imgBadge = document.createElement('img');
 
     box.classList.add('box-team');
     teamsBox.appendChild(box);
-    box.appendChild(paragraph);
-    box.appendChild(imgBadge);
 
-  
-    paragraph.innerText = team.team_name;
-    imgBadge.setAttribute('src', team.team_badge);
-
+    box.innerHTML = 
+    `
+    <img src=${team.team_badge}>
+    <p>${team.team_name}</p>
+    <img src=${'../assets/arrow-down.svg'} class="arrow">
+    `
+   
   })
 
 }
+

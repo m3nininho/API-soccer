@@ -1,0 +1,21 @@
+.box-team{
+  max-width: 60rem;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  background: var(--bg-boxTeam);
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.box-team p{
+  color: var(--text-boxTeam);
+  font-size: 1.365rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+}
+.box-team img{
+  width: 5rem;
+}
