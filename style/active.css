@@ -1,0 +1,15 @@
+.active {
+  max-width: 60rem;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  background: white;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.box-infos{
+  display: none;
+}
